@@ -1,12 +1,14 @@
 function rotateContent() {
   var screenWidth = window.innerWidth;
   var contentRight = document.querySelector(".container-gacha");
+  var bodyElement = document.body;
+
 
   if (screenWidth < 800) {
-    contentRight.style.transform = "rotate(90deg)";
-    contentRight.style.transformOrigin = "bottom left";
+    document.body.style.transform = "rotate(90deg)";
+    document.body.style.transformOrigin = "bottom left";
   } else {
-    contentRight.style.transform = "none"; // Reset transform jika lebar layar >= 800px
+    document.body.style.transform = "none"; // Reset transform jika lebar layar >= 800px
   }
 }
 
