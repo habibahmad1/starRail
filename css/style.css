@@ -1,0 +1,260 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: #464444;
+  overflow: hidden;
+}
+
+.container-gacha {
+  width: 1000px;
+  height: 500px;
+  margin: 70px auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-gacha .content-left {
+  width: 34%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-top-right-radius: 50px;
+  overflow: hidden;
+}
+
+.container-gacha .content-right {
+  width: 66%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #504264, #464444);
+  overflow: hidden;
+}
+
+.line {
+  margin-top: 65px;
+  width: 6px;
+  height: 43px;
+  background-color: #dd3434;
+  position: absolute;
+}
+
+.label {
+  position: relative;
+}
+
+.label .teks-label {
+  position: absolute;
+  font-size: 13px;
+  line-height: 22px;
+  width: 175px;
+  height: 22px;
+  left: 250px;
+  text-align: center;
+  background-color: #dd3434;
+  color: white;
+  margin-top: 30px;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.left {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: 20px;
+  font-size: small;
+  font-weight: bold;
+  border-left: 1px solid grey;
+}
+
+.left .title {
+  font-size: 21px;
+  color: black;
+  margin-left: 20px;
+}
+
+.left .durasi {
+  font-size: 16px;
+  color: orange;
+  margin-left: 20px;
+}
+
+.left p {
+  color: #7e7b7b;
+  margin-left: 20px;
+  border-right: 3px solid grey;
+}
+
+.image-left {
+  display: flex;
+  justify-content: space-evenly; /* Untuk menyebarkan ruang di antara gambar */
+}
+
+.image-wrapper {
+  background-color: #b8b8b8;
+  max-width: 25%;
+  margin-top: 30px;
+  height: 170px;
+  border-radius: 70px;
+  text-align: center;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+.image-wrapper img {
+  flex: 0 0 30%;
+  max-width: 30%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-wrapper:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.gambar1 {
+  margin-top: 200px;
+  margin-left: 75px;
+  width: 100%;
+  height: auto;
+  transform: scale(14);
+}
+.gambar2 {
+  margin-top: 220px;
+  margin-left: 60px;
+  width: 100%;
+  height: auto;
+  transform: scale(17);
+}
+.gambar3 {
+  margin-top: 80px;
+  margin-left: -80px;
+  width: 100%;
+  height: auto;
+  transform: scale(25);
+}
+
+/* Gacha Kanan */
+.timpa {
+  position: absolute;
+  top: -100px;
+  left: 534.5px;
+  z-index: 2;
+  transform: scale(0.8);
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+}
+
+.gambar-timpa {
+  overflow: hidden;
+}
+
+.gambar-gacha img {
+  width: 1000px;
+  position: relative;
+  left: -200px;
+  top: -60px;
+}
+
+/* Riwayat */
+.button-left .detail {
+  position: absolute;
+  width: 165px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #eaeaea;
+  color: black;
+  top: 555px;
+  left: 260px;
+  font-weight: 600;
+  font-size: medium;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.button-left .trial {
+  position: absolute;
+  width: 165px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #eaeaea;
+  color: black;
+  top: 555px;
+  left: 450px;
+  z-index: 2;
+  font-weight: 600;
+  font-size: medium;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+/* Tiket gacha */
+.button-right {
+}
+
+.button-right .gacha1 {
+  display: flex;
+  z-index: 3;
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  top: 555px;
+  left: 863px;
+  background-color: #eaeaea;
+  line-height: 35px;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: medium;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.button-right .gacha1 img {
+  width: 20px;
+  height: auto;
+  margin: 7px 0;
+  position: absolute;
+  left: 16px;
+}
+
+.button-right .gacha10 {
+  display: flex;
+  z-index: 3;
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  top: 555px;
+  left: 1075px;
+  background-color: #eaeaea;
+  line-height: 35px;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: medium;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.button-right .gacha10 img {
+  width: 20px;
+  height: auto;
+  margin: 7px 0;
+  position: absolute;
+  left: 8px;
+}
+
+@media (max-width: 800px) {
+  .container-gacha {
+    width: 100vh;
+  }
+}
