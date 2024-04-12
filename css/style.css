@@ -258,6 +258,6 @@ body {
     width: 100vh;
   }
   body {
-    overflow: none;
+    overflow: auto;
   }
 }
