@@ -256,7 +256,9 @@ body {
 @media (max-width: 600px) {
   .container-gacha {
     width: 100vh;
-    margin: 100px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 300px;
   }
   .label {
     z-index: 4;
@@ -269,27 +271,26 @@ body {
   }
   .button-left .detail {
     left: 90px;
-    top: 580px;
+    top: 780px;
   }
   .button-left .trial {
     left: 250px;
-    top: 580px;
+    top: 780px;
   }
   .button-right .gacha1 {
-    left: 500px;
-    top: 580px;
+    left: 530px;
+    top: 780px;
   }
   .button-right .gacha10 {
-    left: 700px;
-    top: 580px;
+    left: 740px;
+    top: 780px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 1300px) {
   .container-gacha {
     .container-gacha {
-      width: 100%;
-      border: 3px solid red;
+      width: 100vh;
     }
     .label {
       z-index: 9;
@@ -297,7 +298,7 @@ body {
     }
     .timpa {
       top: -100px;
-      left: 265px;
+      left: 165px;
       display: none;
     }
     .button-left .detail {
