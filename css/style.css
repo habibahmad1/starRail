@@ -253,11 +253,64 @@ body {
   left: 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container-gacha {
     width: 100vh;
+    margin: 100px 100px;
   }
-  body {
-    overflow: auto;
+  .label {
+    z-index: 4;
+    left: -160px;
+  }
+  .timpa {
+    top: -160px;
+    left: 200px;
+    display: none;
+  }
+  .button-left .detail {
+    left: 90px;
+    top: 580px;
+  }
+  .button-left .trial {
+    left: 250px;
+    top: 580px;
+  }
+  .button-right .gacha1 {
+    left: 500px;
+    top: 580px;
+  }
+  .button-right .gacha10 {
+    left: 700px;
+    top: 580px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1300px) {
+  .container-gacha {
+    .container-gacha {
+      width: 100%;
+      border: 3px solid red;
+    }
+    .label {
+      z-index: 9;
+      left: -60px;
+    }
+    .timpa {
+      top: -100px;
+      left: 265px;
+      display: none;
+    }
+    .button-left .detail {
+      left: -80px;
+    }
+    .button-left .trial {
+      left: 200px;
+    }
+    .button-right .gacha1 {
+      left: 530px;
+    }
+    .button-right .gacha10 {
+      left: 780px;
+    }
   }
 }
