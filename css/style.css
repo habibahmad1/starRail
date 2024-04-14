@@ -286,6 +286,15 @@ body {
   }
 }
 
+/* Video Gacha */
+.video-r {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+
 @media (min-width: 600px) and (max-width: 1300px) {
   .container-gacha {
     .container-gacha {
