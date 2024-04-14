@@ -264,7 +264,7 @@ body {
 
 @media (max-width: 600px) {
   .container-root {
-    width: 800px;
+    width: 100vh;
     left: 0;
     position: relative;
     background-color: #dd3434;
