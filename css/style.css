@@ -282,6 +282,7 @@ body {
   .timpa {
     top: -175px;
     left: 215px;
+    display: none;
   }
   .button-left .detail {
     top: 480px;
