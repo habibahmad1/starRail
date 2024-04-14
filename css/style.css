@@ -264,12 +264,13 @@ body {
 
 @media (max-width: 600px) {
   .container-root {
-    margin: 200px;
+    width: 800px;
     left: 0;
     position: relative;
+    background-color: #dd3434;
   }
   .container-gacha {
-    width: 100vh;
+    width: 100%;
   }
   body {
     overflow: auto;
@@ -277,7 +278,7 @@ body {
   }
   .label {
     z-index: 4;
-    left: -160px;
+    left: -265px;
   }
   .timpa {
     top: -175px;
@@ -285,6 +286,7 @@ body {
     display: none;
   }
   .button-left .detail {
+    width: 20%;
     top: 480px;
     left: -20px;
   }
