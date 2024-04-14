@@ -253,39 +253,6 @@ body {
   left: 8px;
 }
 
-@media (max-width: 600px) {
-  .container-gacha {
-    width: 100vh;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 300px;
-  }
-  .label {
-    z-index: 4;
-    left: -160px;
-  }
-  .timpa {
-    top: 125px;
-    left: 319px;
-  }
-  .button-left .detail {
-    left: 90px;
-    top: 780px;
-  }
-  .button-left .trial {
-    left: 250px;
-    top: 780px;
-  }
-  .button-right .gacha1 {
-    left: 530px;
-    top: 780px;
-  }
-  .button-right .gacha10 {
-    left: 740px;
-    top: 780px;
-  }
-}
-
 /* Video Gacha */
 .video-r {
   display: none;
@@ -295,11 +262,54 @@ body {
   z-index: 99;
 }
 
+@media (max-width: 600px) {
+  .container-root {
+    margin: 200px;
+    left: 0;
+    position: relative;
+  }
+  .container-gacha {
+    width: 100vh;
+  }
+  body {
+    overflow: auto;
+    transform: rotate(90deg);
+  }
+  .label {
+    z-index: 4;
+    left: -160px;
+  }
+  .timpa {
+    top: -175px;
+    left: 215px;
+  }
+  .button-left .detail {
+    top: 480px;
+    left: -20px;
+  }
+  .button-left .trial {
+    top: 480px;
+    left: 160px;
+  }
+  .button-right .gacha1 {
+    top: 480px;
+    left: 460px;
+  }
+  .button-right .gacha10 {
+    top: 480px;
+    left: 700px;
+  }
+  .video-r {
+    width: 100vh;
+  }
+}
+
 @media (min-width: 600px) and (max-width: 1300px) {
   .container-gacha {
     .container-gacha {
       width: 100vh;
     }
+
     .label {
       z-index: 9;
       left: -60px;
