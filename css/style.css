@@ -261,6 +261,108 @@ body {
   top: 0;
   z-index: 99;
 }
+/* Video Gacha */
+.video-sr {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+/* Video Gacha */
+.video-ssr {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+
+/* Item Gacha */
+.item1 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item1 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
+.item2 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item2 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
+.item3 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item3 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
+.item4 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item4 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
+.item5 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item5 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
+.item6 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item6 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
+.item7 {
+  display: none;
+  width: 400px;
+  margin: auto;
+}
+
+.item7 img {
+  top: 20%;
+  position: absolute;
+  z-index: 199;
+  transform: scale(1.3);
+}
 
 @media (max-width: 600px) {
   .container-root {
