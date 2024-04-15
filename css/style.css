@@ -278,6 +278,15 @@ body {
   z-index: 99;
 }
 
+@keyframes kartu {
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1.7);
+  }
+}
+
 /* Item Gacha */
 .item1 {
   display: none;
@@ -286,6 +295,7 @@ body {
 }
 
 .item1 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
@@ -298,10 +308,11 @@ body {
 }
 
 .item2 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
-  transform: scale(1.3);
+  transform: scale(1.8);
 }
 .item3 {
   display: none;
@@ -310,10 +321,11 @@ body {
 }
 
 .item3 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
-  transform: scale(1.3);
+  transform: scale(1.8);
 }
 .item4 {
   display: none;
@@ -322,10 +334,11 @@ body {
 }
 
 .item4 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
-  transform: scale(1.3);
+  transform: scale(1.7);
 }
 .item5 {
   display: none;
@@ -334,10 +347,11 @@ body {
 }
 
 .item5 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
-  transform: scale(1.3);
+  transform: scale(1.7);
 }
 .item6 {
   display: none;
@@ -346,10 +360,11 @@ body {
 }
 
 .item6 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
-  transform: scale(1.3);
+  transform: scale(1.7);
 }
 .item7 {
   display: none;
@@ -358,10 +373,19 @@ body {
 }
 
 .item7 img {
+  animation: kartu 0.8s;
   top: 20%;
   position: absolute;
   z-index: 199;
   transform: scale(1.3);
+}
+
+.pity {
+  position: absolute;
+  top: 2%;
+  left: 20%;
+  margin: auto;
+  color: white;
 }
 
 @media (max-width: 600px) {
